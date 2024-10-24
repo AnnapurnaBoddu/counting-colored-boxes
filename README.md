@@ -63,6 +63,15 @@ Render.com is a cloud platform that offers free hosting for web applications, in
 5.	Deploy: Once the setup is complete, Render will automatically deploy your app. It will provide a public URL where users can access the app.
 
 
+<b>Challenges Faced</b>
+
+•	<b>PDF to Image Conversion:</b> Converting PDFs to images while retaining quality was crucial for accurate box detection. We solved this by using the PyMuPDF library, which provides high-quality image rendering from PDF pages.
+
+•	<b>Handling Varying Color and Box Sizes:</b> Adjusting color detection ranges and filtering small contours helped in addressing the variations in the input files.
+
+•	<b>File Size for Hosting:</b>Coudn´t deploy the apllication on tiiny.host due to size constraint and azzure due to monitory reasons, found alternative site render.com
+
+
 
 
 
